@@ -122,7 +122,7 @@ creates a GUI that can load one of the nspyre plotting widgets,
    main_widget = MainWidget({
       'Experiments': {
          'ExampleExperiment': MainWidgetItem(mygui, 'ExampleExperiment')
-      }
+      },
       'Plots': {
          'FlexLinePlot': MainWidgetItem(nspyre.gui.widgets.flex_line_plot_widget, 'FlexLinePlotWidget')
       },
